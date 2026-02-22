@@ -783,7 +783,7 @@ export default function CreatePropertyPost() {
                       <button 
                         type="button" 
                         onClick={() => removePropertyImage(index)}
-                        className="absolute top-2 right-2 bg-red-600 text-white rounded-full p-1.5 opacity-0 group-hover:opacity-100 transition hover:bg-red-700"
+                        className="absolute top-2 right-2 bg-red-600 text-white rounded-full p-1.5 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition hover:bg-red-700"
                       >
                         <XCircle size={18} />
                       </button>
@@ -840,7 +840,7 @@ export default function CreatePropertyPost() {
                       <button 
                         type="button" 
                         onClick={() => removeFloorPlan(index)}
-                        className="absolute top-2 right-2 bg-red-600 text-white rounded-full p-1.5 opacity-0 group-hover:opacity-100 transition hover:bg-red-700"
+                        className="absolute top-2 right-2 bg-red-600 text-white rounded-full p-1.5 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition hover:bg-red-700"
                       >
                         <XCircle size={18} />
                       </button>
